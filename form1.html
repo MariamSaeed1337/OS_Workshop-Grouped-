@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="height: 500px;width: 500px; background-color: grey;">
+    <form action="/action_page.php" method="post">
+       <fieldset>
+        <legend><h1>Details</h1></legend>
+
+    <table id="mydiv">
+        <tr>
+            <td>First Name:</td>
+            <td>
+                <input type="text" name="firstname" placeholder="John">
+            </td>
+        </tr>
+        <tr>
+            <td>Last Name:</td>
+            <td>
+                <input type="text" name="lastname" placeholder="Joe">
+            </td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td>
+                <input type="email" name="email" placeholder="abc123@gmail.com">   
+            </td>
+        </tr>
+        <tr>
+            <td>Appointment </td>
+            <td>
+                <input type="date" name="appointment">   
+            </td>
+        </tr>
+
+    </table>
+       </fieldset>
+</form>
+</div>
+</body>
+</html>
