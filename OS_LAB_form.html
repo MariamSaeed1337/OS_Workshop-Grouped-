@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color:#FAF9F6;">
+   <div style="border:2px solid black ; width: 50%; padding-bottom: 5%;">
+    <div style="display: flex; margin-top: 10px;">&nbsp;&nbsp;&nbsp;&nbsp;
+        <!-- <div> <img src="./employee-removebg-preview.png" alt="#" style="width: 40px; margin-top: 20px;  margin-left: 20px;"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+       <div style="align-self: flex-end; color: red; font-size: x-large; margin-left: 5px;"> <h3>Employee Registration Form</h3></div>
+     </div>
+     <br>
+     <form action="" style="margin-left: 5%;">
+         <input type="radio" name="gender" id="" style="  margin-left: 15%;">Mr
+         <input type="radio" name="gender" id=""  >Mrs
+         <input type="radio" name="gender" id=""  >Ms
+         <br><br>
+         <label for="">First Name:</label>&nbsp;&nbsp;&nbsp;
+         <input type="text" name="" id="" required placeholder="First Name" pattern="[a-zA-Z]+" title="Must be letters" style="margin-left: 6%;;"><br><br>
+         <label for="">Last Name:</label>&nbsp;&nbsp;&nbsp;
+         <input type="text" name="" id="" required placeholder="Last Name" pattern="[a-zA-Z]+" title="Must be letters" style="margin-left: 6%;"> <br><br>
+         <label for="">Mail Address1:</label>
+         <input type="text" name="" id=""style="margin-left: 4%;" ><br><br>
+         <label for="">Mail Address2:</label>
+         <input type="text" name="" id="" style="margin-left: 4%;"><br><br>
+         <label for="">City:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <input type="text" name="" id="" pattern="[A-Za-z]{5,}" title="City name must contain only letters and be at least 5 characters long" required  style="margin-left: 10%;"><br><br>
+         <label for="">State:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         <select name="Country" id="Country" required style="margin-left: 10%;">
+             <option value="">Punjab</option>
+             <option value="">Sindh</option>
+             <option value="">Balochistan</option>
+             <option value="">Khyber Pakhtunkhwa</option>
+         </select> <br> <br>
+         <label for="">Zip code: </label>&nbsp;&nbsp;
+             <input type="text" name="#" id="#" required pattern="\d+" title="Numeric Only"  style="margin-left: 8%;" >  <br><br>
+             <label for="">Upload Photo: </label>
+             <input type="file" name="#" id="#" accept="image/*" style="margin-left: 5%;">  <br><br>
+             <label for="">E-mail: </label>&nbsp;&nbsp;&nbsp;
+            <input type="email" name="" id=""  required style="margin-left: 9%; width: 20%;"><br><br>
+            <label for="">Mobile:</label>&nbsp;&nbsp;&nbsp;
+            <input type="text" name="" id=""  placeholder="+92" style="margin-left: 9%;"><br><br>
+            <label for="" style="margin-left: 5px; ">Languages Known:</label>
+                 <input type="checkbox" name="Language" id="Language" required value="English">English <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="checkbox" name="Language" id="Language" value="Urdu" style="  margin-left: 14%;">Urdu <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="checkbox" name="Language" id="Language" value="Punjabi" style=" margin-left: 14%">Punjabi <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                 <input type="checkbox" name="Language" id="Language" value="Sindhi" style=" margin-left: 14%">Sindhi <br><br>
+                <div  style="display: flex; align-items: center;">
+                 <label for="">Additional Information:&nbsp; </label>
+                 <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div> 
+                <br><br>
+                <input type="submit" name="Submit" id="Submit" style="margin-left: 14%;">&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="reset" name="Reset" id="Reset">
+         
+     </form>
+</div>
+</body>
+</html>
